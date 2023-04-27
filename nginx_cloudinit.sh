@@ -1,4 +1,5 @@
 #!/bin/bash
+#https://docs.oracle.com/en/learn/oracle-linux-nginx/#update-the-nginx-configuration
 sudo su
 yum install nginx -y
 systemctl enable --now nginx.service
